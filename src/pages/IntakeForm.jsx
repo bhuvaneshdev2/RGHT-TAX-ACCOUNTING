@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+﻿import React, { useState, useRef } from 'react';
 
 export default function IntakeForm() {
   const [step, setStep] = useState(1);
@@ -181,7 +181,7 @@ export default function IntakeForm() {
 
           {submitted ? (
             <div className="sidebar-card text-center" style={{ backgroundColor: 'var(--color-white)', border: '1px solid var(--color-border)', padding: 'var(--space-md)' }}>
-              <div style={{ color: 'var(--color-accent-green)', fontSize: '3rem', marginBottom: '1rem' }}>✓</div>
+              <div style={{ color: 'var(--color-accent-green)', fontSize: '3rem', marginBottom: '1rem' }}>âœ“</div>
               <h2>Intake Form Submitted Successfully!</h2>
               <p style={{ margin: '1rem 0' }}>Thank you, {formData.fullName}. Your secure tax intake details and {files.length} uploaded files have been received.</p>
               <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>A professional representative from RGHT Tax & Accounting will review your file and reach out to you within 24 hours.</p>
@@ -314,7 +314,7 @@ export default function IntakeForm() {
                   </div>
 
                   <div className="btn-group-step" style={{ justifyContent: 'flex-end' }}>
-                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step →</button>
+                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`4px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
                   </div>
                 </div>
               )}
@@ -445,8 +445,8 @@ export default function IntakeForm() {
                   </div>
 
                   <div className="btn-group-step" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <button type="button" onClick={handlePrev} className="btn btn-secondary">← Previous</button>
-                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step →</button>
+                    <button type="button" onClick={handlePrev} className="btn btn-secondary">â† Previous</button>
+                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`4px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
                   </div>
                 </div>
               )}
@@ -539,8 +539,8 @@ export default function IntakeForm() {
                   </div>
 
                   <div className="btn-group-step" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <button type="button" onClick={handlePrev} className="btn btn-secondary">← Previous</button>
-                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step →</button>
+                    <button type="button" onClick={handlePrev} className="btn btn-secondary">â† Previous</button>
+                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`4px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
                   </div>
                 </div>
               )}
@@ -561,7 +561,7 @@ export default function IntakeForm() {
                           checked={formData.communication === 'no_appointment'} 
                           onChange={handleChange} 
                           required 
-                        /> No appointment — process tax return and email me
+                        /> No appointment â€” process tax return and email me
                       </label>
                       <label style={{ fontWeight: 500 }}>
                         <input 
@@ -619,7 +619,7 @@ export default function IntakeForm() {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                           {files.map((file, idx) => (
                             <div key={idx} className="file-item">
-                              <span>📁 {file.name} ({(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+                              <span>ðŸ“ {file.name} ({(file.size / 1024 / 1024).toFixed(2)} MB)</span>
                               <span className="remove-file" onClick={() => removeFile(idx)}>Remove</span>
                             </div>
                           ))}
@@ -629,8 +629,8 @@ export default function IntakeForm() {
                   </div>
 
                   <div className="btn-group-step" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <button type="button" onClick={handlePrev} className="btn btn-secondary">← Previous</button>
-                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step →</button>
+                    <button type="button" onClick={handlePrev} className="btn btn-secondary">â† Previous</button>
+                    <button type="button" onClick={handleNext} className="btn btn-primary">Next Step <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`4px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
                   </div>
                 </div>
               )}
@@ -663,7 +663,7 @@ export default function IntakeForm() {
                   </div>
 
                   <div className="btn-group-step" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <button type="button" onClick={handlePrev} className="btn btn-secondary" disabled={submitStatus === 'submitting'}>← Previous</button>
+                    <button type="button" onClick={handlePrev} className="btn btn-secondary" disabled={submitStatus === 'submitting'}>â† Previous</button>
                     <button type="submit" className="btn btn-primary" disabled={submitStatus === 'submitting'}>
                       {submitStatus === 'submitting' ? 'Submitting Secure Intake...' : 'Submit Secure Intake Form'}
                     </button>
@@ -683,3 +683,4 @@ export default function IntakeForm() {
     </>
   );
 }
+

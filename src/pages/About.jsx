@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 export default function About() {
   return (
@@ -87,22 +87,22 @@ export default function About() {
             <div className="sidebar-card" style={{ backgroundColor: 'var(--color-white)', marginBottom: 0 }}>
               <h4>1. Corporate Setup & Filing</h4>
               <p style={{ fontSize: '0.9rem' }}>Ontario/Federal registrations, Business Numbers, T2 returns, corporate tax adjustments, and structural restructuring updates.</p>
-              <a href="#/business-setup" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More →</a>
+              <a href="#/business-setup" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`3px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
             <div className="sidebar-card" style={{ backgroundColor: 'var(--color-white)', marginBottom: 0 }}>
               <h4>2. Personal & Gig Taxes</h4>
               <p style={{ fontSize: '0.9rem' }}>Specialized T1 filings for students, seniors, newcomers, rental owners, and Uber/Lyft ride-share and delivery drivers.</p>
-              <a href="#/personal-tax" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More →</a>
+              <a href="#/personal-tax" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`3px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
             <div className="sidebar-card" style={{ backgroundColor: 'var(--color-white)', marginBottom: 0 }}>
               <h4>3. Bookkeeping & Payroll</h4>
               <p style={{ fontSize: '0.9rem' }}>QuickBooks reconciliations, monthly ledger entries, HST tracking, payroll cycles (T4, CPP/EI, ROEs), and ledger cleanups.</p>
-              <a href="#/bookkeeping" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More →</a>
+              <a href="#/bookkeeping" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`3px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
             <div className="sidebar-card" style={{ backgroundColor: 'var(--color-white)', marginBottom: 0 }}>
               <h4>4. Insurance & Investment Planning</h4>
               <p style={{ fontSize: '0.9rem' }}>Income protection (disability, life), tax-sheltered wealth (RRSP, TFSA, RESP), and corporate retained earnings strategies.</p>
-              <a href="#/insurance-investment" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More →</a>
+              <a href="#/insurance-investment" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`3px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
           </div>
 
