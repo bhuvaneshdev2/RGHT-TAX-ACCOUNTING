@@ -161,8 +161,8 @@ export default function Contact() {
               <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', border: '1px solid var(--color-border)' }}>
                 <iframe 
                   title="RGHT Office Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.334185790403!2d-79.72266858450002!3d43.74513877911833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1m3!1d0!2zNDPCsDQ0JzQyLjUiTiA3OcKwNDMnMTMuOCJX!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca" 
-                  style={{ position: 'absolute', top: 0, left: 0, width: 100 + '%', height: 100 + '%', border: 0 }} 
+                  src="https://maps.google.com/maps?q=50+Sunny+Meadow+Blvd+Brampton+ON+L6R+0Y7&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }} 
                   allowFullScreen="" 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
