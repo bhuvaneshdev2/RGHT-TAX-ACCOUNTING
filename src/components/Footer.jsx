@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-col">
           <div className="footer-logo">
-            <span>RGHT</span>
+            <img src="/images/RGHTlogo.png" alt="RGHT Tax & Accounting" style={{ height: '60px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} />
           </div>
           <p style={{ fontSize: '0.9rem', marginBottom: '1.5rem', lineHeight: '1.6' }}>
             Premium CPA Tax Planning, Compliance & Accounting services for individuals, corporations, and small businesses in Brampton and across Ontario.

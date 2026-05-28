@@ -32,7 +32,11 @@ export default function Header({ currentPage }) {
       <header className={`site-header ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container header-container">
           <a href="#/" className="logo-link" onClick={closeMobileMenu}>
-            <span>RGHT</span> <small>Tax & Accounting</small>
+            <img
+              src="/images/RGHTlogo.png"
+              alt="RGHT Tax & Accounting"
+              className="header-logo-img"
+            />
           </a>
 
           {/* Desktop Navigation */}

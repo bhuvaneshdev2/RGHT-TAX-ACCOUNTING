@@ -2,14 +2,14 @@
 
 /* --- DESIGN TOKENS --- */
 :root {
-    /* Color Palette matching gmfingroup.com */
+    /* Color Palette matching RGHT logo (navy blue + bright green) */
     --color-bg: #FFFFFF;              /* Pure White background */
     --color-bg-card: #F4F4F4;         /* Light Gray background for sections/cards */
-    --color-text-primary: #000000;    /* Pure Black for headers and readability */
+    --color-text-primary: #0D1B5E;    /* RGHT Navy Blue for headers */
     --color-text-muted: #5D6C7B;      /* Slate Gray copy */
-    --color-accent-green: #274F4A;    /* Accent Dark Teal Green (GM secondary) */
-    --color-accent-gold: #7CCE94;     /* Accent Sage Green (GM primary) */
-    --color-primary-light: #BDF0CC;   /* Mint Light Green for icon wrappers */
+    --color-accent-green: #0D1B5E;    /* RGHT Navy Blue (primary dark) */
+    --color-accent-gold: #3CB934;     /* RGHT Bright Green (primary accent) */
+    --color-primary-light: #D4F5D0;   /* Light Green for icon wrappers */
     --color-border: #E5E5E5;          /* Fine border color */
     --color-white: #FFFFFF;
     --color-alert: #EA384C;           /* Alert red */
@@ -287,6 +287,19 @@ img {
 .logo-link small {
     color: var(--color-accent-gold);
     font-weight: 700;
+}
+
+.header-logo-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header-logo-img {
+        height: 36px;
+    }
 }
 
 .nav-menu {
