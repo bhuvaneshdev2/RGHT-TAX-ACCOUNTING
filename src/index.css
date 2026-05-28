@@ -290,7 +290,7 @@ img {
 }
 
 .header-logo-img {
-    height: 72px;
+    height: 90px;
     width: auto;
     object-fit: contain;
     display: block;
@@ -298,7 +298,7 @@ img {
 
 @media (max-width: 768px) {
     .header-logo-img {
-        height: 52px;
+        height: 64px;
     }
 }
 
