@@ -176,13 +176,13 @@ img {
 .btn-primary {
     background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
-    border-color: transparent;
+    border: none;
+    padding: calc(0.65rem + 1.5px) calc(2.2rem + 1.5px);
 }
 
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--color-green-dark) 0%, var(--color-green-light) 100%);
     color: var(--color-white);
-    border-color: transparent;
     box-shadow: 0 8px 24px rgba(22, 91, 19, 0.25);
 }
 
@@ -195,20 +195,21 @@ img {
 .btn-secondary:hover {
     background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
-    border-color: transparent;
+    border: none;
+    padding: calc(0.65rem + 1.5px) calc(2.2rem + 1.5px);
     box-shadow: 0 8px 20px rgba(22, 91, 19, 0.2);
 }
 
 .btn-accent {
     background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
-    border-color: transparent;
+    border: none;
+    padding: calc(0.65rem + 1.5px) calc(2.2rem + 1.5px);
 }
 
 .btn-accent:hover {
     background: linear-gradient(135deg, var(--color-green-dark) 0%, var(--color-green-light) 100%);
     color: var(--color-white);
-    border-color: transparent;
     box-shadow: 0 8px 24px rgba(22, 91, 19, 0.25);
 }
 
