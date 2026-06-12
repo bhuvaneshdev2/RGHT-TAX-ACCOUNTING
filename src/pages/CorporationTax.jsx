@@ -244,6 +244,17 @@ export default function CorporationTax() {
           </p>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to Optimize Your Corporate Taxes?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Optimize your corporate tax structures, shareholder salaries, dividends, and ensure seamless CRA T2 filings.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">File Corporate Taxes</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -210,6 +210,17 @@ export default function PersonalTax() {
           </p>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to File Your Personal Taxes?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Claim every eligible deduction, credit, and benefit. Get fast, professional CPA filing support with maximum refunds.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">File Taxes Online</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -262,6 +262,17 @@ export default function BusinessTax() {
           </p>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to Maximize Your Business Deductions?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Simplify your T2125 filings, sole proprietorship taxes, and CRA compliance with expert CPA support.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">File Taxes Online</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

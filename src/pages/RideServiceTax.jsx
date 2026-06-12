@@ -214,6 +214,17 @@ export default function RideServiceTax() {
           </div>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to File Your Rideshare & Gig Taxes?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Claim maximum mileage, fuel, and phone expenses. Get your GST/HST filings processed quickly and accurately.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">File Drivers Tax Online</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

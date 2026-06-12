@@ -213,6 +213,17 @@ export default function Payroll() {
           </p>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to Simplify Your Payroll?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Save hours of admin work, avoid CRA penalties, and ensure 100% accurate source deductions and T4 filings.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">Access Online Form</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

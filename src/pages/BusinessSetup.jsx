@@ -304,6 +304,17 @@ export default function BusinessSetup() {
           </p>
         </div>
       </section>
+
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Ready to Start Your Business Strong?</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>We handle corporation registrations, tax accounts (GST/HST, payroll), and corporate compliance filings, so you can build your dream.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">Start Online Setup</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

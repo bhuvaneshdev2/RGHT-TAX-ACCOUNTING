@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 export default function About() {
   return (
@@ -105,11 +105,16 @@ export default function About() {
               <a href="#/insurance-investment" style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--color-accent-gold)', textDecoration: 'none' }}>Learn More <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft:`3px`,verticalAlign:`middle`}}><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="text-center">
-            <h2>Let's Build Your Financial Future Together</h2>
-            <p style={{ maxWidth: '600px', margin: '0.5rem auto var(--space-md) auto' }}>Experience a unified approach to bookkeeping, tax, and insurance with RGHT Tax & Accounting.</p>
-            <a href="#/contact" className="btn btn-primary">Book a Free Consultation</a>
+      <section className="py-lg text-center" style={{ borderTop: '1px solid var(--color-border)', backgroundColor: 'var(--color-bg-card)' }}>
+        <div className="container">
+          <h2>Let's Build Your Financial Future Together</h2>
+          <p style={{ fontSize: '1.15rem', maxWidth: '700px', margin: '0 auto var(--space-md) auto' }}>Experience a unified approach to bookkeeping, tax, and insurance with RGHT Tax & Accounting.</p>
+          <div className="btn-group" style={{ justifyContent: 'center' }}>
+            <a href="#/contact" className="btn btn-primary">Book Consultation</a>
+            <a href="#/intake-form" className="btn btn-secondary">Access Online Form</a>
           </div>
         </div>
       </section>
