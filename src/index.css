@@ -9,6 +9,8 @@
     --color-text-muted: #5D6C7B;      /* Slate Gray copy */
     --color-accent-green: #0D1B5E;    /* RGHT Navy Blue (primary dark) */
     --color-accent-gold: #3CB934;     /* RGHT Bright Green (primary accent) */
+    --color-green-light: #3CB934;     /* Premium Green Light (Logo) */
+    --color-green-dark: #165B13;      /* Premium Green Dark (Rich Forest) */
     --color-primary-light: #D4F5D0;   /* Light Green for icon wrappers */
     --color-border: #E5E5E5;          /* Fine border color */
     --color-white: #FFFFFF;
@@ -172,42 +174,42 @@ img {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
+    background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
     border-color: transparent;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, var(--color-accent-green) 0%, var(--color-accent-gold) 100%);
+    background: linear-gradient(135deg, var(--color-green-dark) 0%, var(--color-green-light) 100%);
     color: var(--color-white);
     border-color: transparent;
-    box-shadow: 0 8px 24px rgba(13, 27, 94, 0.25);
+    box-shadow: 0 8px 24px rgba(22, 91, 19, 0.25);
 }
 
 .btn-secondary {
     background-color: transparent;
-    border-color: var(--color-accent-gold);
+    border-color: var(--color-green-light);
     color: var(--color-accent-green);
 }
 
 .btn-secondary:hover {
-    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
+    background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
     border-color: transparent;
-    box-shadow: 0 8px 20px rgba(60, 185, 52, 0.2);
+    box-shadow: 0 8px 20px rgba(22, 91, 19, 0.2);
 }
 
 .btn-accent {
-    background: linear-gradient(135deg, var(--color-accent-green) 0%, var(--color-accent-gold) 100%);
+    background: linear-gradient(135deg, var(--color-green-light) 0%, var(--color-green-dark) 100%);
     color: var(--color-white);
     border-color: transparent;
 }
 
 .btn-accent:hover {
-    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
+    background: linear-gradient(135deg, var(--color-green-dark) 0%, var(--color-green-light) 100%);
     color: var(--color-white);
     border-color: transparent;
-    box-shadow: 0 8px 24px rgba(60, 185, 52, 0.25);
+    box-shadow: 0 8px 24px rgba(22, 91, 19, 0.25);
 }
 
 .btn-white {
