@@ -172,41 +172,42 @@ img {
 }
 
 .btn-primary {
-    background-color: var(--color-accent-gold);
-    color: var(--color-text-primary);
-    border-color: var(--color-accent-gold);
+    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
+    color: var(--color-white);
+    border-color: transparent;
 }
 
 .btn-primary:hover {
-    background-color: var(--color-accent-green);
+    background: linear-gradient(135deg, var(--color-accent-green) 0%, var(--color-accent-gold) 100%);
     color: var(--color-white);
-    border-color: var(--color-accent-green);
-    box-shadow: 0 8px 20px rgba(39, 79, 74, 0.16);
+    border-color: transparent;
+    box-shadow: 0 8px 24px rgba(13, 27, 94, 0.25);
 }
 
 .btn-secondary {
     background-color: transparent;
-    border-color: var(--color-accent-green);
+    border-color: var(--color-accent-gold);
     color: var(--color-accent-green);
 }
 
 .btn-secondary:hover {
-    background-color: var(--color-accent-green);
+    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
     color: var(--color-white);
-    box-shadow: 0 8px 20px rgba(39, 79, 74, 0.12);
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(60, 185, 52, 0.2);
 }
 
 .btn-accent {
-    background-color: var(--color-accent-green);
+    background: linear-gradient(135deg, var(--color-accent-green) 0%, var(--color-accent-gold) 100%);
     color: var(--color-white);
-    border-color: var(--color-accent-green);
+    border-color: transparent;
 }
 
 .btn-accent:hover {
-    background-color: var(--color-accent-gold);
-    color: var(--color-text-primary);
-    border-color: var(--color-accent-gold);
-    box-shadow: 0 8px 20px rgba(124, 206, 148, 0.2);
+    background: linear-gradient(135deg, var(--color-accent-gold) 0%, var(--color-accent-green) 100%);
+    color: var(--color-white);
+    border-color: transparent;
+    box-shadow: 0 8px 24px rgba(60, 185, 52, 0.25);
 }
 
 .btn-white {
