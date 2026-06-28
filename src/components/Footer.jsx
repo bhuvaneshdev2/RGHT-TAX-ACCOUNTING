@@ -82,9 +82,13 @@ export default function Footer() {
 
       <div className="container footer-bottom">
         <p>© {currentYear} RGHT Tax & Accounting. All rights reserved. Professional Chartered Professional Accountant Services.</p>
-        <div style={{ display: 'flex', gap: '15px' }}>
+        <div style={{ display: 'flex', gap: '15px', alignItems: 'center', flexWrap: 'wrap' }}>
           <a href="#/privacy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy Policy</a>
           <a href="#/terms" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms of Service</a>
+          <span style={{ color: 'rgba(255,255,255,0.2)' }}>|</span>
+          <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.85rem' }}>
+            Design & Developed by <a href="https://goboldlabs.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent-gold)', fontWeight: '600', textDecoration: 'none', transition: 'color var(--transition-fast)' }} onMouseOver={(e) => e.target.style.color = 'var(--color-white)'} onMouseOut={(e) => e.target.style.color = 'var(--color-accent-gold)'}>goboldlabs.com</a>
+          </span>
         </div>
       </div>
     </footer>
